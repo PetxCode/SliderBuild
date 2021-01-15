@@ -1,0 +1,22 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+}
+.app__header {
+  color: white;
+  background-color: #2850b8;
+  background-image: linear-gradient(transparent, #2850b8);
+  border-bottom: 7px solid linear-gradient(to-right white);
+}
+.app__headerLink {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.app__link {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  /* background-color: red; */
+}
